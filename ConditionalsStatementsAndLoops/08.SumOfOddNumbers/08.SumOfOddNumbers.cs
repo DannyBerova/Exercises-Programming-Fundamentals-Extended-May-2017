@@ -14,6 +14,7 @@ namespace _08.SumOfOddNumbers
 
             for (int i = 0; i < n; i++)
             {
+                Console.WriteLine(currentNumber);
                 sum += currentNumber;
                 currentNumber += 2;
             }

@@ -11,7 +11,7 @@ namespace _11.OddNumber
 
             while (currentNumber % 2 == 0)
             {
-                Console.WriteLine("Please write an odd number");
+                Console.WriteLine("Please write an odd number.");
                 currentNumber = int.Parse(Console.ReadLine());
             }
 

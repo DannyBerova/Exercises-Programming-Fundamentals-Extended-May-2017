@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.ForeignLanguages", "05.F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.TheatrePromotions", "06.TheatrePromotions\06.TheatrePromotions.csproj", "{0B4C9446-9D3D-4803-BE12-2FE0FB9D8B19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.DivideByZero", "07.DivideByZero\07.DivideByZero.csproj", "{D9D87B31-16AD-4C9A-808C-0D4B1D4C6484}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.DivisibleBy3", "07.DivideByZero\07.DivisibleBy3.csproj", "{D9D87B31-16AD-4C9A-808C-0D4B1D4C6484}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.SumOfOddNumbers", "08.SumOfOddNumbers\08.SumOfOddNumbers.csproj", "{5E377904-EB13-443C-86BE-956E22C39F75}"
 EndProject
