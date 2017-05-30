@@ -9,27 +9,12 @@ namespace _05.WordInPlural
         {
             string input = Console.ReadLine(); 
 
-            if (input.EndsWith("o"))
-            {
-                Console.WriteLine(input + "es");
-            }
-            else if (input.EndsWith("ch"))
-            {
-                Console.WriteLine(input + "es");
-            }
-            else if (input.EndsWith("s"))
-            {
-                Console.WriteLine(input + "es");
-            }
-            else if (input.EndsWith("sh"))
-            {
-                Console.WriteLine(input + "es");
-            }
-            else if (input.EndsWith("x"))
-            {
-                Console.WriteLine(input + "es");
-            }
-            else if (input.EndsWith("z"))
+            if (input.EndsWith("o") 
+                || input.EndsWith("ch") 
+                || input.EndsWith("s") 
+                || input.EndsWith("sh") 
+                || input.EndsWith("x") 
+                || input.EndsWith("z"))
             {
                 Console.WriteLine(input + "es");
             }
