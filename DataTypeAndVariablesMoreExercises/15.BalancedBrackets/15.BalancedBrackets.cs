@@ -9,41 +9,40 @@ namespace _15.BalancedBrackets
         {
             int lines = int.Parse(Console.ReadLine());
 
-            bool isBalanced = false;
-            bool isFirstBracket = false;
-            bool isNoBracket = true;
-            
+            string previousBracket = string.Empty;
+            string status = "BALANCED";
+
 
             for (int i = 0; i < lines; i++)
             {
                 string currentString = Console.ReadLine();
 
-                if (currentString == "(" || currentString == ")")
-                {
-                    isNoBracket = false;
-                }
                 if (currentString == "(")
                 {
-                    isBalanced = false;
-                    isFirstBracket = true;
-
+                    if (previousBracket == "(")
+                    {
+                        status = "UNBALANCED";
+                        break;
+                    }
+                    previousBracket = "(";
                 }
-                else if (currentString == ")" && isFirstBracket)
+
+                if (currentString == ")")
                 {
-                    isBalanced = true;
-                    isFirstBracket = false;
+                    if (previousBracket != "(")
+                    {
+                        status = "UNBALANCED";
+                        break;
+                    }
+                    previousBracket = ")";
                 }
+            }
 
-
-            }
-            if (isBalanced || isNoBracket)
+            if (previousBracket == "(")
             {
-                Console.WriteLine("BALANCED");
+                status = "UNBALANCED";
             }
-            else
-            {
-                Console.WriteLine("UNBALANCED");
-            }
+                Console.WriteLine(status);
         }
     }
 }
