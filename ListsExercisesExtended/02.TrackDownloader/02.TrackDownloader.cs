@@ -1,5 +1,4 @@
-﻿
-namespace _02.TrackDownloader
+﻿namespace _02.TrackDownloader
 {
     using System;
     using System.Collections.Generic;
