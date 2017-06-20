@@ -17,8 +17,7 @@ namespace _06.StuckZipper
             firstList = RemoveBigerValues(minLenght, firstList);
             secondList = RemoveBigerValues(minLenght, secondList);
 
-            int minCount = Math.Min(firstList.Count, secondList.Count);
-            int maxCount = firstList.Count + secondList.Count;
+            int maxCount = Math.Max(firstList.Count, secondList.Count);
             List<int> zippList = new List<int>();
 
             for (int i = 0; i <= maxCount; i++)
