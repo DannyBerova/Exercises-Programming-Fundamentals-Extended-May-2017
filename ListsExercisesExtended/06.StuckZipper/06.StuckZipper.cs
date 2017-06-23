@@ -39,7 +39,6 @@ namespace _06.StuckZipper
         private static int TakeMinLenghtOfNumbers(List<int> firstList, List<int> secondList)
         {
             int currentLenght = 0;
-            int nextLenght = 0;
             int minLenght = int.MaxValue;
 
             for (int i = 0; i < firstList.Count - 1; i++)
