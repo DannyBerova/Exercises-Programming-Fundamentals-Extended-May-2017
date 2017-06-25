@@ -10,18 +10,22 @@ namespace _06.Winecraft
         public static void Main()
         {
             List<int> grapes = Console.ReadLine()
-                .Split(' ')
+                .Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToList();
             int seasonDays = int.Parse(Console.ReadLine());
+            int countAliveGrapes = grapes.Count;
 
-            while (grapes.Count > seasonDays)
+            while (countAliveGrapes > seasonDays)
             {
                 for (int i = 0; i < seasonDays; i++)
                 {
                     for (int each = 0; each < grapes.Count; each++)
                     {
+                        if (grapes[each] != 0)
+                        {
                             grapes[each]++;
+                        }
                     }
 
                     for (int special = 0; special < grapes.Count; special++)
@@ -50,10 +54,19 @@ namespace _06.Winecraft
                 {
                     if (grapes[index] <= seasonDays)
                     {
-                        grapes.RemoveAt(index);
-                        index--;
+                        grapes[index] = 0;
                     }
                 }
+
+                countAliveGrapes = grapes.Count;
+                foreach (var grape in grapes)
+                {
+                    if (grape == 0)
+                    {
+                        countAliveGrapes--;
+                    }
+                }
+
             }
 
             Console.WriteLine(string.Join(" ", grapes));
