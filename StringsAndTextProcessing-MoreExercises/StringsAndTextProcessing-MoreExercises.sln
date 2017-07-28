@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.ValueOfString", "01.ValueOfString\01.ValueOfString.csproj", "{F263EAFF-B183-4273-99D5-E0E1D5714AE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DiamondProblem", "02.DiamondProblem\02.DiamondProblem.csproj", "{51D8C4DA-89BB-4DC8-94C5-F2E93D2B3C62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.SerializeString", "03.SerializeString\03.SerializeString.csproj", "{66C4B148-A355-4495-ACED-7CEC88C22E12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.DeserializeString", "04.DeserializeString\04.DeserializeString.csproj", "{9D4404F1-2F9C-4DCD-9855-83C7C04EC3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.StringCommander", "05.StringCommander\05.StringCommander.csproj", "{7DE7A89B-FE08-4079-AE1F-2FF52513A0FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Pyramidic", "06.Pyramidic\06.Pyramidic.csproj", "{83EAEBBC-58CA-40EA-AE77-F5D532EED4C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Nilapdromes", "07.Nilapdromes\07.Nilapdromes.csproj", "{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F263EAFF-B183-4273-99D5-E0E1D5714AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F263EAFF-B183-4273-99D5-E0E1D5714AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F263EAFF-B183-4273-99D5-E0E1D5714AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F263EAFF-B183-4273-99D5-E0E1D5714AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51D8C4DA-89BB-4DC8-94C5-F2E93D2B3C62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51D8C4DA-89BB-4DC8-94C5-F2E93D2B3C62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51D8C4DA-89BB-4DC8-94C5-F2E93D2B3C62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51D8C4DA-89BB-4DC8-94C5-F2E93D2B3C62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66C4B148-A355-4495-ACED-7CEC88C22E12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66C4B148-A355-4495-ACED-7CEC88C22E12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66C4B148-A355-4495-ACED-7CEC88C22E12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66C4B148-A355-4495-ACED-7CEC88C22E12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D4404F1-2F9C-4DCD-9855-83C7C04EC3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D4404F1-2F9C-4DCD-9855-83C7C04EC3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D4404F1-2F9C-4DCD-9855-83C7C04EC3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D4404F1-2F9C-4DCD-9855-83C7C04EC3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DE7A89B-FE08-4079-AE1F-2FF52513A0FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE7A89B-FE08-4079-AE1F-2FF52513A0FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE7A89B-FE08-4079-AE1F-2FF52513A0FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE7A89B-FE08-4079-AE1F-2FF52513A0FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83EAEBBC-58CA-40EA-AE77-F5D532EED4C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83EAEBBC-58CA-40EA-AE77-F5D532EED4C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83EAEBBC-58CA-40EA-AE77-F5D532EED4C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83EAEBBC-58CA-40EA-AE77-F5D532EED4C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
