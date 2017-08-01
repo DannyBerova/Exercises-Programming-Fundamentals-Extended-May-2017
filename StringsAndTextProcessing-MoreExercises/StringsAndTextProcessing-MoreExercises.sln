@@ -13,9 +13,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.DeserializeString", "04.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.StringCommander", "05.StringCommander\05.StringCommander.csproj", "{7DE7A89B-FE08-4079-AE1F-2FF52513A0FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Pyramidic", "06.Pyramidic\06.Pyramidic.csproj", "{83EAEBBC-58CA-40EA-AE77-F5D532EED4C0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Pyramidic", "06.Pyramidic\07.Pyramidic.csproj", "{83EAEBBC-58CA-40EA-AE77-F5D532EED4C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.Nilapdromes", "07.Nilapdromes\07.Nilapdromes.csproj", "{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.Nilapdromes", "07.Nilapdromes\08.Nilapdromes.csproj", "{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.Stateless", "06.Stateless\06.Stateless.csproj", "{F2EA435A-BB81-417D-916B-E6CE01A9C232}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.DiamondProblemVers2.0", "02.DiamondProblemVers2.0\02.DiamondProblemVers2.0.csproj", "{0833EE8B-B290-4489-A053-9BE33728FB22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04.DeserializeStringVers2", "04.DeserializeStringVers2\04.DeserializeStringVers2.csproj", "{FC41FD31-1655-4CAD-AB48-5B131982BE32}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +57,18 @@ Global
 		{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F3FB4C0-EA25-4EF6-936F-AC8BB7A5C262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2EA435A-BB81-417D-916B-E6CE01A9C232}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2EA435A-BB81-417D-916B-E6CE01A9C232}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2EA435A-BB81-417D-916B-E6CE01A9C232}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2EA435A-BB81-417D-916B-E6CE01A9C232}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0833EE8B-B290-4489-A053-9BE33728FB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0833EE8B-B290-4489-A053-9BE33728FB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0833EE8B-B290-4489-A053-9BE33728FB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0833EE8B-B290-4489-A053-9BE33728FB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC41FD31-1655-4CAD-AB48-5B131982BE32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC41FD31-1655-4CAD-AB48-5B131982BE32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC41FD31-1655-4CAD-AB48-5B131982BE32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC41FD31-1655-4CAD-AB48-5B131982BE32}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
